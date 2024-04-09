@@ -1,0 +1,155 @@
+@font-face {
+    font-family: vazirNormal;
+    src: url('assets/font/Vazir-Regular.ttf') format('truetype'),
+        url('assets/font/Vazir-Regular.woff') format('woff'),
+        url('assets/font/Vazir-Regular.woff2') format('woff2'),
+        url('assets/font/Vazir-Regular.eot') format('eot');
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+}
+
+p, a {
+    font-family: vazirNormal, sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+    color: hsl(0, 0%, 0%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.banner {
+    block-size: 90vh;
+    
+    padding: 2rem;
+
+    background-color: hsla(227, 94%, 27%, 0.5);
+    background-image: url('assets/images/pic1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.banner header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: hsl(0, 0%, 100%);
+
+    padding: 1.4rem;
+    border-radius: 1rem;
+}
+
+.banner header div {
+    display: flex;
+    align-items: center;
+
+}
+
+.banner header div:first-child {
+    gap: 1rem;
+}
+
+.banner header img {
+    inline-size: 6rem;
+    block-size: 6rem;
+}
+
+.banner header nav ul{
+    display: flex;
+    gap: 1.4rem;
+}
+
+.banner header nav li a{
+    padding: 1rem 1rem;
+    
+    border-radius: 0.3rem;
+}
+
+.banner header nav li a:hover {
+    background-color: hsla(180, 55%, 66%, 0.664);
+}
+
+
+.banner header div:last-child a:first-child {
+    background-color: hsla(0, 7%, 62%, 0.508);
+    
+    border-radius: 0.3rem;
+
+    padding: 0.5rem 1rem;
+}
+
+.banner header div:last-child a:last-child {
+    background-color: hsla(202, 84%, 58%, 0.577);
+    
+    border-radius: 0.3rem;
+
+    padding: 0.5rem 1rem;
+}
+
+.banner p span {
+    font-weight: bold;
+
+    font-size: 7rem;
+}
+
+.topic1 {
+    position: relative;
+    top: 12rem;
+    
+    font-size: 6rem;
+
+    color: hsl(0, 0%, 100%);
+
+    text-align: center;
+
+    
+}
+
+.topic2 {
+    position: relative;
+    top: 13rem;
+    
+    font-size: 2rem;
+
+    color: hsl(0, 0%, 100%);
+
+    text-align: center;
+
+   
+}
+
+.banner form {
+    position: relative;
+    top: 18rem;
+
+    text-align: center; 
+}
+
+.banner form input {
+    background-color:hsl(0, 0%, 100%);
+    padding:5px;
+    border-radius: 1rem;
+    width: 40%;
+}
+
+.banner form button img {
+    width: 2rem;
+    height: 2rem;
+
+
+}
