@@ -142,14 +142,16 @@ ul {
 
 .banner form input {
     background-color:hsl(0, 0%, 100%);
+
     padding:5px;
+
     border-radius: 1rem;
+
     width: 40%;
 }
 
 .banner form button img {
     width: 2rem;
+    
     height: 2rem;
-
-
 }
