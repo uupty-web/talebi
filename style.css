@@ -31,42 +31,17 @@ ul {
     list-style-type: none;
 }
 
-main {
-    background-color: hsl(0, 2%, 81%);
-}
-
-main .articles .title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-main .articles .title h2{
-    padding-top: 9rem;
-
-    font-size: 3rem;
-}
-
-main .articles .title div button{
-    display: flex; 
-
-    background-color: rgb(22, 181, 239);
-
-    border-radius: 2rem;
-
-    height: 5rem;
-    width: 5rem;
-}
-
-main .articles .articleslides {
+footer .information {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
 
-    gap: 5rem;
-
-    height: 10rem;
+    padding: 8rem;
 }
 
-main .articles .articleslides * {
-    flex: 1;
+footer .information div:nth-child(3) img {
+    position: relative;
+    right: 16rem;
+    inline-size: 6rem;
+    block-size: 6rem;
 }
