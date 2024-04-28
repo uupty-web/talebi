@@ -57,7 +57,6 @@ ul {
 .banner header div {
     display: flex;
     align-items: center;
-
 }
 
 .banner header div:first-child {
@@ -107,30 +106,25 @@ ul {
     font-size: 7rem;
 }
 
-.topic1 {
+.banner p:nth-child(2){
     position: relative;
     top: 12rem;
     
     font-size: 6rem;
 
     color: hsl(0, 0%, 100%);
-
-    text-align: center;
-
-    
 }
 
-.topic2 {
+.banner p:nth-child(3){
+    display: flex;
+    justify-content: center; 
+    
     position: relative;
     top: 13rem;
-    
+ 
     font-size: 2rem;
 
-    color: hsl(0, 0%, 100%);
-
-    text-align: center;
-
-   
+    color: hsl(0, 0%, 100%);  
 }
 
 .banner form {
