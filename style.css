@@ -31,6 +31,301 @@ ul {
     list-style-type: none;
 }
 
+.banner {
+    block-size: 90vh;
+    
+    padding: 2rem;
+
+    background-color: hsla(227, 94%, 27%, 0.5);
+    background-image: url('assets/images/pic1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.banner header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: hsl(0, 0%, 100%);
+
+    padding: 1.4rem;
+    border-radius: 1rem;
+}
+
+.banner header div {
+    display: flex;
+    align-items: center;
+}
+
+.banner header div:first-child {
+    gap: 1rem;
+}
+
+.banner header img {
+    inline-size: 6rem;
+    block-size: 6rem;
+}
+
+.banner header nav ul{
+    display: flex;
+    gap: 1.4rem;
+}
+
+.banner header nav li a{
+    padding: 1rem 1rem;
+    
+    border-radius: 0.3rem;
+}
+
+.banner header nav li a:hover {
+    background-color: hsla(180, 55%, 66%, 0.664);
+}
+
+
+.banner header div:last-child a:first-child {
+    background-color: hsla(0, 7%, 62%, 0.508);
+    
+    border-radius: 0.3rem;
+
+    padding: 0.5rem 1rem;
+}
+
+.banner header div:last-child a:last-child {
+    background-color: hsla(202, 84%, 58%, 0.577);
+    
+    border-radius: 0.3rem;
+
+    padding: 0.5rem 1rem;
+}
+
+.banner p span {
+    font-weight: bold;
+
+    font-size: 7rem;
+}
+
+.banner p:nth-child(2){
+    position: relative;
+    top: 12rem;
+    
+    font-size: 6rem;
+
+    color: hsl(0, 0%, 100%);
+}
+
+.banner p:nth-child(3){
+    display: flex;
+    justify-content: center; 
+    
+    position: relative;
+    top: 13rem;
+ 
+    font-size: 2rem;
+
+    color: hsl(0, 0%, 100%);  
+}
+
+.banner form {
+    position: relative;
+    top: 18rem;
+
+    text-align: center; 
+}
+
+.banner form input {
+    background-color:hsl(0, 0%, 100%);
+
+    padding:5px;
+
+    border-radius: 1rem;
+
+    width: 40%;
+}
+
+.banner form button img {
+    width: 2rem;
+    
+    height: 2rem;
+}
+
+main {
+    background-color: hsl(0, 2%, 81%);
+}
+
+main .language{
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    top:-7rem;
+
+    border-radius:5rem;
+
+    background-color: hsl(0, 2%, 81%);
+
+    width:100%;
+    min-height: 20rem;
+    
+    padding: 7rem;
+    
+    z-index: 1;
+}
+
+main .language:after, main .language:before{
+    content:'';
+
+    position: absolute;
+    top:-20px;
+    left:40px;
+
+    width:calc(100% - 80px);
+    height:50px;
+
+    background-color: hsl(0, 2%, 81%);
+
+    opacity: 0.4;
+
+    border-radius:30px 30px 0 0;
+
+    z-index: -1;
+}
+
+main .language:before{
+    width:calc(100% - 140px);
+    height:100px;
+
+    left:70px;
+    top:-40px;
+
+    border-radius:40px 40px 0 0;
+    
+    opacity: 0.3;
+}
+
+main .language h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.main .language p {
+    display: flex;
+    justify-content: center;
+}
+
+main .language div img {
+    border-radius: 50%;
+
+    width: 10rem;
+    height: 10rem;
+}
+
+main .language div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: relative;
+
+    background-color: hsl(0, 0%, 100%);
+
+    border-radius: 1rem;
+}
+
+main .language .flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+
+    padding: 10rem;
+}
+
+main .language .flag div:nth-child(1) {
+    bottom: -4rem;
+    rotate: 5deg;
+}
+
+main .language .flag div:nth-child(2) {
+    bottom: -15rem;
+    rotate: -15deg;
+}
+
+main .language .flag div:nth-child(3) {
+    bottom: -1rem;
+    rotate: -1deg;
+}
+
+main .language.flag div:nth-child(4) {
+    bottom: -8rem;
+    rotate: 15deg;
+}
+
+main .language .flag div:nth-child(5) {
+    bottom: -4rem;
+    rotate: -10deg;
+}
+
+main .services .title {
+    display: flex;
+    justify-content: center;
+    
+    font-size: 3rem;   
+}
+
+main .services .service {
+    display: flex;
+    justify-content: center;
+
+    background-color: hsl(0, 0%, 100%);
+
+    gap: 5rem;
+
+    height: 10rem;
+}
+
+main .services .service * {
+    flex: 1;
+}
+
+main .articles .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .articles .title h2{
+    padding-top: 9rem;
+
+    font-size: 3rem;
+}
+
+main .articles .title div button{
+    display: flex; 
+
+    background-color: rgb(22, 181, 239);
+
+    border-radius: 2rem;
+
+    height: 5rem;
+    width: 5rem;
+}
+
+main .articles .articleslides {
+    display: flex;
+    justify-content: center;
+
+    gap: 5rem;
+
+    height: 10rem;
+}
+
+main .articles .articleslides * {
+    flex: 1;
+}
+
 footer .information {
     display: flex;
     justify-content: center;
